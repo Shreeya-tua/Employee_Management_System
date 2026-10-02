@@ -1,17 +1,16 @@
-  # Employee Management System
+# Employee Management System
 
 A Java-based Employee Management System developed using Java, MySQL, and JDBC to manage employee records through database operations.
 
 ## Project Overview
 
-The Employee Management System is a database-driven application designed to manage employee information efficiently. It provides functionalities for adding, viewing, updating, and removing employee records through a Java application connected to a MySQL database using JDBC.
+The Employee Management System is a database-driven application designed to manage employee information. It provides functionalities for adding, viewing, updating, and removing employee records through a Java application connected to a MySQL database using JDBC.
 
 ## Technologies Used
 
 - Java
 - MySQL
 - JDBC
-- SQL
 
 ## Features
 
@@ -25,9 +24,9 @@ The Employee Management System is a database-driven application designed to mana
 
 ## Database
 
-The application uses **MySQL** for storing and managing employee information.
+The application uses MySQL for storing and managing employee information.
 
-**JDBC (Java Database Connectivity)** is used to establish the connection between the Java application and the MySQL database.
+JDBC (Java Database Connectivity) is used to establish the connection between the Java application and the MySQL database.
 
 ## Project Structure
 
@@ -53,12 +52,12 @@ The system implements the basic CRUD operations:
 
 ## How to Run
 
-1. Install Java and MySQL on your system.
-2. Create the required MySQL database.
-3. Configure the MySQL database connection in `conn.java`.
+1. Install Java and MySQL.
+2. Create a MySQL database named `employee_management_system`.
+3. Configure your local MySQL username and password in `conn.java`.
 4. Make sure the MySQL server is running.
 5. Open the project in an IDE such as IntelliJ IDEA.
-6. Run the main application class.
+6. Run `main_class.java`.
 
 ## Learning Outcomes
 
@@ -66,8 +65,7 @@ Through this project, I gained practical experience in:
 
 - Java programming
 - Object-Oriented Programming
-- Database Management
-- MySQL
+- MySQL database management
 - JDBC connectivity
 - CRUD operations
-- Developing database-driven applications
+- Database-driven application development
