@@ -11,7 +11,11 @@ public class conn {
     public conn(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            c= DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_management_system","root","Shr20051@");
+            c = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/employee_management_system",
+    "root",
+    "YOUR_PASSWORD"
+);
             s=c.createStatement();
             System.out.println("Connected Successfully ");
 
